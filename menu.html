@@ -1,0 +1,68 @@
+﻿<html>
+<head>
+<title>test</title>
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:arial;
+	font-size:14px;
+}
+#menu{
+	width:1170px;
+	height:50px;
+	background:#FF9600;
+	margin:50px auto;
+}
+#menu>ul>li{
+	float:left;
+	position:relative;/*thiết lập lệnh cha*/
+}
+#menu ul li{
+	list-style:none;
+	height:50px;
+	line-height:50px;
+	padding:0 30px;
+}
+#menu ul li ul{
+	width:250px;
+	background:#FF9600;
+	position:absolute;/*Thiết lập lệnh con*/
+	top:50px;/*cách với vuền trên div */
+	left:0;
+	display:none;/*Ẩn nội dung*/
+}
+#menu ul li:hover ul{
+	display:block;/*hiện nội dung*/
+}
+#menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform:uppercase;
+	}
+#menu ul li:hover{
+	background:#FC0;
+	cursor:pointer;}
+	
+</style>
+</head>
+<body>
+	<div id="menu">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">BLOG</a>
+				<ul>
+					<li><a href="#">HTML 5</a></li>
+					<li><a href="#">CSS 3</a></li>
+					<li><a href="#">BOOTSTRAP 4</a></li>
+					<li><a href="#">PHP 7</a></li>
+				</ul>
+			</li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</div>
+</body>
+</html>
