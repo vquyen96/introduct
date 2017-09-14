@@ -1,76 +1,94 @@
 *{
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url("http://1.bp.blogspot.com/-2usrLbmWuRQ/VABtPFx8gdI/AAAAAAAADq4/ZWSka7A0F0E/s1600/Hinhnendl.com---Hinh-nen-khong-gian%2B(8).jpg") no-repeat;
+	width: 100%;
+	font-family: 'Ruge Boogie', cursive;
+}
+#all{
+	width: 70%;
+	margin: auto;
 }
 #header{
-	height:100px;
-	background:#000;
+	height: 100px;
+	line-height: 100px;
+
 }
 h1{
 	color:#fff;
-	text-align:center;
-	text-transform: uppercase;
-	padding: 30px;
-
-
+	text-shadow: 2px 5px #172532;
+	float: left;
+	margin: 0px 30px;
 }
-#nav{
-	background:#333;
-	text-align:center;
-	text-transform: uppercase;
-	height:30px;
-	padding:10px;
+h1 img{
+	height: 50px;
+	margin-left: 250px;
 }
-a{
-	color:orange;
+.ava{
+	width: 50px;
+	opacity: 70%;
+	border-radius: 50%;
+	float: right;
+	margin: 30px 10px;
+	opacity: 0.5;
+}
+#nav img{
+	width: 100%;
+	margin: 10px 0px;
+	opacity: 0.5;
+}
+h2{
 	text-decoration: none;
-	margin-left:20px;
-
-}
-a:hover{
-	color:#fff;
-}
-h3{
-	color:red;
-	font-size: 20px;
-	margin: 10px;
-
 }
 #body{
-	width:1200px;
-	height:800px;
-	margin: auto
+	display: block;
 }
 #info{
-	background: #ccc;
-	width: 300px;
-	height:800px;
-	float:left;
-	padding:30px;
-	margin-left:30px;
+	background: #fff;
+	padding: 10px;
+	width: 40%;
+	box-shadow: 4px 4px #999;
+	opacity: 0.6;
+	float: left;
+}
+a{
+	text-decoration: none;
 }
 #info ul li{
 	list-style: none;
-	height: 50px;
-	line-height: 50px;
+	margin: 20px;
 }
-#fun{
-	width: 800px;
-	height:800px;
-	float:left;
-
+b{
+	color:red;
 }
-#introduct{
-	margin: 30px;
+#who{
+	width: 50%;
+	float: right;
+	background: #fff;
+	box-shadow:  4px 4px #ff9;
+	opacity: 0.6;
+	padding:20px;
+	margin-bottom: 50px;
+}
+h3{
+	color:#0092ff;
+}
+small{
+	text-transform: initial;
 }
 #footer{
+	background: url(http://codex-themes.com/scalia/wp-content/uploads/2014/12/footer-background-011.jpg);
 	clear:both;
-	height:70px;
-	background: #000;
-	color:#fff;
+	/*background : #1d3158 ;*/
+	color: #fff;
 	text-align: center;
+	margin:20px 0px 0px 0px;
+	height: 100px;
+	line-height: 100px;
 }
-#thank{
-	padding-top:30px; 
+#footer img{
+	height: 50px;
+	margin: 0px 30px;
 }
-
